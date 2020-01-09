@@ -1,6 +1,10 @@
-Camel Project for Blueprint 
-=========================================
+Description 
+========================================
+This project is designed to take input from user and return its response that is read from the properties file.
 
+Gives basic insight on how to set headers/body and NOT use hard-coded stuff in code.
+
+========================================
 To build this project use
 
     mvn install
@@ -9,11 +13,3 @@ To run the project you can execute the following Maven goal
 
     mvn camel:run
 
-To deploy the project in OSGi. For example using Apache Karaf.
-You can run the following command from its shell:
-
-    osgi:install -s mvn:com.mycompany/camel-blueprint/1.0.0-SNAPSHOT
-
-For more help see the Apache Camel documentation
-
-    http://camel.apache.org/
